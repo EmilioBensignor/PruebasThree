@@ -1,0 +1,65 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  background: #f0f0f0;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+canvas#three-canvas {
+  width: 400px !important;
+  height: 400px !important;
+  background-color: #ddd;
+}
+
+/* Estilos de las secciones de abajo */
+.section {
+  width: 90%;
+  max-width: 800px;
+  margin: 2rem 0;
+  padding: 1rem;
+  border-top: 1px solid #ddd;
+}
+
+.section h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.section p {
+  font-size: 1rem;
+  color: #666;
+}
